@@ -1,0 +1,9 @@
+LIBRARY XRAYDLL INITGLOBAL
+DESCRIPTION 'Xray, by CodeSmith Software'
+
+DATA SINGLE SHARED
+
+EXPORTS
+    XrayKill
+    XrayInit
+    XraySetGlobals
